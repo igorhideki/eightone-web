@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { Container, Content, Profile } from './styles';
+import { Container, Content } from './styles';
 import { Button } from '~/components/Button';
 
 export default function Header() {
