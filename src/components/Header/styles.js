@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import colors from '~/styles/colors';
 
 export const Container = styled.div`
-  background: rgba(0, 0, 0, 0.3);
+  background: #fff;
   padding: 0 30px;
 `;
 
@@ -17,15 +18,35 @@ export const Content = styled.div`
     display: flex;
     align-items: center;
 
-    img {
-      margin-right: 20px;
-      padding-right: 20px;
+    span {
+      font-size: 18px;
+      font-weight: bold;
+      color: ${colors.primary}
     }
   }
 
   aside {
     display: flex;
     align-items: center;
+
+    ul {
+      display: flex;
+      margin-right: 15px;
+
+      li {
+        margin: 0 15px;
+
+        a {
+          color: ${colors.darkGray};
+          font-weight: bold;
+          transition: color 0.2s;
+
+          &:hover {
+            color: ${colors.gray}
+          }
+        }
+      }
+    }
   }
 `;
 
@@ -37,12 +58,12 @@ export const Profile = styled.div`
 
   strong {
     display: block;
-    color: #fff;
+    color: ${colors.darKgray};
   }
 
   a {
     display: block;
     margin-top: 4px;
-    color: #999;
+    color: ${colors.gray};
   }
 `;
