@@ -12,5 +12,5 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   max-width: 940px;
-  margin: 52px auto;
+  margin: 40px auto;
 `;
