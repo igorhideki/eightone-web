@@ -14,10 +14,10 @@ export const Button = styled.button`
     return colors.primary;
   }};
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
-  height: 42px;
-  padding: 0 21px;
+  height: 36px;
+  padding: 0 15px;
   border-radius: 4px;
   transition: background 0.2s;
   border: 0;
