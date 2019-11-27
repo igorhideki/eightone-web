@@ -17,7 +17,10 @@ export default function Header() {
         <aside>
           <ul>
             <li>
-              <Link to="/">Escolas</Link>
+              <Link to="/schools">Escolas</Link>
+            </li>
+            <li>
+              <Link to="/">Convites</Link>
             </li>
             <li>
               <Link to="/">Cadastrar Workshop</Link>
